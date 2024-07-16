@@ -18,7 +18,7 @@ defineProps({
       :src="!isFaforite ? '/like-1.svg' : 'like-2.svg'"
       alt="like"
       class="absolute top-8 left-8"
-      @click="onClickFavorite"
+      @click="on"
     />
     <img :src="imageUrl" alt="sneaker" />
     <p class="mt-2">{{ title }}</p>
